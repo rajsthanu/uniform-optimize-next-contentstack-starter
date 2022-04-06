@@ -83,6 +83,39 @@ export interface RegistrationFormFields extends StandardEntryFields {
 
 export type RegistrationForm = Entry<RegistrationFormFields>;
 
+
+
+export interface ItProDayFields extends StandardEntryFields {
+  /** ButtonText */
+  description?: string | undefined;
+
+
+}
+
+export type ItProDay = Entry<ItProDayFields>;
+
+
+
+
+
+export interface ProductFormFields extends StandardEntryFields {
+  /** ButtonText */
+  button_text?: string | undefined;
+
+  /** Registered Text */
+  registered_text?: string | undefined;
+}
+
+export type ProductForm = Entry<ProductFormFields>;
+
+
+
+
+
+
+
+
+
 export interface TalkFields extends StandardEntryFields {
   /** Description */
   description?: string | undefined;

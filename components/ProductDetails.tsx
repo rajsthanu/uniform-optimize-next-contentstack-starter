@@ -1,10 +1,10 @@
 import { useUniformTracker } from '@uniformdev/optimize-tracker-react';
 import React from 'react';
 import { useState } from 'react';
-import { Entry, RegistrationFormFields } from '../lib/contentstack';
+import { Entry, ProductFormFields } from '../lib/contentstack';
 import Splitter from './Splitter';
 
-export const RegisterForm: React.FC<Entry<RegistrationFormFields>> = ({
+export const ProductDetails: React.FC<Entry<ProductFormFields>> = ({
   title,
   registered_text,
   button_text,
@@ -30,8 +30,8 @@ export const RegisterForm: React.FC<Entry<RegistrationFormFields>> = ({
             <h1 className="my-4 text-5xl font-bold leading-tight">{title}</h1>
 
             <form>
-              <input type="text"></input>Test1
-              <input type="text"></input>
+              <p>text1</p><input type="text"></input>
+              <p>text2</p><input type="text"></input>
               {registered ? (
                 <p>{registered_text}</p>
               ) : (

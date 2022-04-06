@@ -8,6 +8,8 @@ import { PersonalizedHero } from '../components/PersonalizedHero';
 import { ComponentMapping } from '../lib/ComponentMapping';
 import TalkList from '../components/TalkList';
 import { RegisterForm } from '../components/RegisterForm';
+import { ProductDetails } from '../components/ProductDetails';
+import { ItProday } from '../components/ItProday';
 import { WhyAttend } from '../components/WhyAttend';
 
 const componentMapping: ComponentMapping = {
@@ -16,7 +18,9 @@ const componentMapping: ComponentMapping = {
   personalized_hero: PersonalizedHero,
   talks_list: TalkList,
   registration_form: RegisterForm,
+  product_form: ProductDetails,
   why_attend: WhyAttend,
+  itproday : ItProday
 };
 
 export interface PageProps {

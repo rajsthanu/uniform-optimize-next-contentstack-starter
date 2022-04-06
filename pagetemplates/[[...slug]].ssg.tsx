@@ -27,7 +27,7 @@ export const getStaticProps: GetStaticProps<PageProps> = async (context) => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   return {
-    paths: ['/', '/developers', '/marketers', '/registration'],
+    paths: ['/', '/developers', '/marketers', '/registration', '/product'],
     fallback: false,
   };
 };
