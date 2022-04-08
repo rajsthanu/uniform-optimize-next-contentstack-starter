@@ -19,7 +19,7 @@ const Hero: React.FC<Entry<HeroFields>> = ({
       <div className="pt-24">
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left min-h-500">
-            <p className="uppercase tracking-loose w-full">Uniform demo</p>
+            <p className="uppercase tracking-loose w-full">Uniform demo testing.</p>
             <h1 className="my-4 text-5xl font-bold leading-tight">{title}</h1>
             <p className="leading-normal text-2xl mb-8">{description}</p>
 
